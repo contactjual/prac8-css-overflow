@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+}
+
+
+.text1 {
+    border: 2px solid red;
+    margin: 100px auto;
+    width: 500px;
+    height: 400px;
+
+    overflow: auto;
+
+    /*
+    overflow: visible;
+    overflow: hidden;
+    overflow: -moz-hidden-unscrollable;
+    overflow: initial;
+    overflow: inherit;
+    overflow: unset;
+    */
+}
+.text2 {
+    border: 2px solid red;
+    margin: 100px auto;
+    width: 500px;
+    height: 400px;
+
+    overflow-y: scroll;
+}
